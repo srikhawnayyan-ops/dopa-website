@@ -1,0 +1,90 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+    background-color: #eef2f7;
+}
+
+/* ส่วนหัว */
+.header {
+    background-color: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* กล่องเนื้อหา */
+.content {
+    background-color: white;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #d5dff5;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+/* หมวด */
+h3 {
+    color: #0b3d91;
+    border-bottom: 2px solid #0b3d91;
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+
+/* ส่วนที่ */
+h4 {
+    color: #1a4fb3;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+/* ข้อ */
+p {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+/* โทษ */
+.punishment {
+    color: #c40000;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+/* รายการหัวข้อย่อย (จุด) */
+ul {
+    margin-left: 50px;
+    list-style-type: disc;
+    line-height: 1.8;
+}
+
+/* เส้นคั่น */
+hr {
+    border: none;
+    border-top: 1px solid #d5dff5;
+    margin: 25px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0b3d91;
+    color: white;
+    margin-top: 30px;
+}
+
+/* มือถือ */
+@media screen and (max-width: 900px) {
+    .content {
+        margin: 15px;
+        padding: 25px;
+    }
+}
